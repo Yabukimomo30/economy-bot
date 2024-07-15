@@ -35,7 +35,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor('#ff9900')
             .setTitle('Quest Completed')
-            .setDescription(`You have completed a quest and earned ${questReward} cowoncy 🐮`);
+            .setDescription(`You have completed a quest and earned ${questReward} earl 🐮`);
 
         message.channel.send({ embeds: [embed] });
     },
