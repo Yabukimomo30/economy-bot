@@ -16,7 +16,7 @@ module.exports = {
             .addFields(
                 topUsers.map(([userId, data], index) => ({
                     name: `#${index + 1} ${message.guild.members.cache.get(userId).displayName}`,
-                    value: `${data.cowoncy} cowoncy 🐮`,
+                    value: `${data.cowoncy} earl 🐮`,
                     inline: true
                 }))
             );
