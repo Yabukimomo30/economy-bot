@@ -12,7 +12,7 @@ module.exports = {
             .addFields(
                 shopItems.map(item => ({
                     name: item.name,
-                    value: `${item.description}\nPrice: ${item.price} cowoncy 🐮`
+                    value: `${item.description}\nPrice: ${item.price} earl 🐮`
                 }))
             );
 
