@@ -10,8 +10,8 @@ module.exports = {
 
         const embed = new MessageEmbed()
             .setColor('#ffcc00')
-            .setTitle('My Cowoncy Balance')
-            .setDescription(`You have ${userCowoncy} cowoncy 🐮`);
+            .setTitle('My earl Balance')
+            .setDescription(`You have ${userCowoncy} earl 🐮`);
 
         message.channel.send({ embeds: [embed] });
     },
