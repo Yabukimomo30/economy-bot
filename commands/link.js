@@ -7,7 +7,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Bot Invite Link')
-            .setDescription('Click [here]( https://discord.gg/4vpJRCNvYA) to invite the bot to your server.');
+            .setDescription('Click [here](https://discord.com/oauth2/authorize?client_id=1255053743360053330) to invite the bot to your server.');
 
         message.channel.send({ embeds: [embed] });
     },
