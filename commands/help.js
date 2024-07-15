@@ -19,17 +19,17 @@ module.exports = {
         const supportButton = new MessageButton()
             .setStyle('LINK')
             .setLabel('Support Server')
-            .setURL('https://discord.gg/txX9eyGPk7');
+            .setURL(' https://discord.gg/4vpJRCNvYA');
 
         const inviteButton = new MessageButton()
             .setStyle('LINK')
             .setLabel('Bot Invite')
-            .setURL('https://discord.com/oauth2/authorize?client_id=1240605719145873409&scope=bot&permissions=8');
+            .setURL('https://discord.com/oauth2/authorize?client_id=1255053743360053330');
 
         const githubButton = new MessageButton()
             .setStyle('LINK')
             .setLabel('Youtube Channel')
-            .setURL('https://youtube.com/@Im0Prince?sub_confirmation=1');
+            .setURL('https://youtube.com/@Earlpolloso22');
 
         const row = new MessageActionRow()
             .addComponents(supportButton, inviteButton, githubButton);
