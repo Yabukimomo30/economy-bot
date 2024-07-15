@@ -7,7 +7,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor('#0099ff')
             .setTitle('Support Server')
-            .setDescription('Join our support server [here](https://discord.gg/txX9eyGPk7).');
+            .setDescription('Join our support server [here]( https://discord.gg/4vpJRCNvYA).');
 
         message.channel.send({ embeds: [embed] });
     },
