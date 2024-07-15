@@ -35,7 +35,7 @@ module.exports = {
         const embed = new MessageEmbed()
             .setColor('#ff9900')
             .setTitle('Animal Sold')
-            .setDescription(`You have sold a ${animal.name} for ${animal.value} cowoncy 🐮`);
+            .setDescription(`You have sold a ${animal.name} for ${animal.value} earl 🐮`);
 
         message.channel.send({ embeds: [embed] });
     },
